@@ -34,8 +34,6 @@
           } self;
 
         defaultPackage = self.packages.${system}.unix;
-
-        devShell = import ./shell.nix { inherit pkgs; };
       }
     );
 }
