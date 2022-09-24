@@ -30,7 +30,6 @@
         in
           mkUnikernelPackages {
             unikernelName = "www";
-            depexts = with pkgs; [ gmp ];
             mirageDir = "mirage";
           } self;
 
