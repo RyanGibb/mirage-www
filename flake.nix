@@ -30,9 +30,11 @@
         in
           mkUnikernelPackages {
             unikernelName = "www";
+            mirageDir = "mirage";
             # depexts for ocaml-gmp
             depexts = with pkgs; [ opam gnum4 ];
-            mirageDir = "mirage";
+            # isn't picked up by `opam admin list`
+            monorepoQuery = { gmp = "*"; };
           } self;
 
         defaultPackage = self.packages.${system}.unix;
