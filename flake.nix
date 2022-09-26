@@ -11,7 +11,7 @@
       flake = false;
     };
     opam-overlays = {
-      url = "github:dune-universe/opam-overlays";
+      url = "github:RyanGibb/opam-overlays";
       flake = false;
     };
 
@@ -30,6 +30,8 @@
         in
           mkUnikernelPackages {
             unikernelName = "www";
+            # depexts for ocaml-gmp
+            depexts = with pkgs; [ opam gnum4 ];
             mirageDir = "mirage";
           } self;
 
