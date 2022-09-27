@@ -164,11 +164,11 @@
     "opam-overlays": {
       "flake": false,
       "locked": {
-        "lastModified": 1664217989,
-        "narHash": "sha256-M7S7bQrMDxnZmUXV1w8kCTD4yF0xrC/EpLK89xtoE2Q=",
+        "lastModified": 1664298045,
+        "narHash": "sha256-kzjtQeIn7jZJEgA4y8atDyyKZA/matKs20ui3Wc7pbM=",
         "owner": "RyanGibb",
         "repo": "opam-overlays",
-        "rev": "5fc806af7486b9b60d62778658e3e3d10d907a87",
+        "rev": "cffaa323ef0117d38399c3266922990dc67f282e",
         "type": "github"
       },
       "original": {
