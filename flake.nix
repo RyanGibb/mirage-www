@@ -11,7 +11,7 @@
       flake = false;
     };
     opam-overlays = {
-      url = "github:RyanGibb/opam-overlays";
+      url = "github:dune-universe/opam-overlays";
       flake = false;
     };
 

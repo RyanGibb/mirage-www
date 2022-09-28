@@ -62,11 +62,11 @@
         "opam2json": "opam2json"
       },
       "locked": {
-        "lastModified": 1663949188,
-        "narHash": "sha256-LCFxxldeMBp7UWoxfbt6csMwMVz5ei2S1/TiTdzgxBg=",
+        "lastModified": 1664394815,
+        "narHash": "sha256-2ASJ+AvXjEk/7ekGH5ZtYojiQ8okoRxAIc1MC+VR87Q=",
         "owner": "RyanGibb",
         "repo": "hillingar",
-        "rev": "22bbe64434f0a278431b2c9fbe205745a3f0d1f2",
+        "rev": "f239ea2c9052cd780f720a9a3321ed3784808e41",
         "type": "github"
       },
       "original": {
@@ -164,15 +164,15 @@
     "opam-overlays": {
       "flake": false,
       "locked": {
-        "lastModified": 1664298045,
-        "narHash": "sha256-kzjtQeIn7jZJEgA4y8atDyyKZA/matKs20ui3Wc7pbM=",
-        "owner": "RyanGibb",
+        "lastModified": 1654162756,
+        "narHash": "sha256-RV68fUK+O3zTx61iiHIoS0LvIk0E4voMp+0SwRg6G6c=",
+        "owner": "dune-universe",
         "repo": "opam-overlays",
-        "rev": "cffaa323ef0117d38399c3266922990dc67f282e",
+        "rev": "c8f6ef0fc5272f254df4a971a47de7848cc1c8a4",
         "type": "github"
       },
       "original": {
-        "owner": "RyanGibb",
+        "owner": "dune-universe",
         "repo": "opam-overlays",
         "type": "github"
       }
@@ -181,10 +181,10 @@
       "flake": false,
       "locked": {
         "lastModified": 1663764137,
-        "narHash": "sha256-lLvUduzo13xhpgs2CbCocCMJf94UIxdXuGHvYgx34dA=",
+        "narHash": "sha256-vGGQsDB6R21+C403aI58sHnAGoLnSDRvOxLuKFnpFK4=",
         "owner": "ocaml",
         "repo": "opam-repository",
-        "rev": "093d829a67718239dc4cdbf89bf31642c89496fd",
+        "rev": "ac449189627d970da8814768338f975b2dc20cab",
         "type": "github"
       },
       "original": {
